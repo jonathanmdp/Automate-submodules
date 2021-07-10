@@ -13,7 +13,7 @@
        - name: Just ensuring the repo checkout exists
          ansible.builtin.git:
            repo: 'git@github.com:jonathanmdp/Automate-submodules.git'
-           dest: .
+           dest: ~/teste
            update: no
            force: yes
            clone: yes
