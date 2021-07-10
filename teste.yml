@@ -16,3 +16,4 @@
            dest: .
            update: yes
            force: yes
+           refspec: '+refs/pull/*:refs/heads/*'
