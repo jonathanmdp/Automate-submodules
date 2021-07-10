@@ -12,9 +12,9 @@
 
        - name: Just ensuring the repo checkout exists
          ansible.builtin.git:
-           repo: 'https://foosball.example.org/path/to/repo.git'
+           repo: 'git@github.com:jonathanmdp/Automate-submodules.git'
            dest: .
-           update: yes
+           update: no
            force: yes
            clone: yes
            recursive: yes
