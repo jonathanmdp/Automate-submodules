@@ -8,5 +8,5 @@
          ansible.builtin.git:
            repo: 'git@github.com:jonathanmdp/Automate-submodules.git'
            dest: .
-           #archive: /tmp/ansible-examples.zip
+           archive: /tmp/ansible-examples.zip
 
