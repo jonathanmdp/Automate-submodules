@@ -13,7 +13,8 @@
        - name: Just ensuring the repo checkout exists
          ansible.builtin.git:
            repo: 'https://foosball.example.org/path/to/repo.git'
-           dest: .
+           dest: ./teste
            update: yes
            force: yes
-           refspec: '+refs/pull/*:refs/heads/*'
+           clone: yes
+           recursive: yes
