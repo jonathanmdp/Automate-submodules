@@ -10,3 +10,8 @@
            dest: .
            archive: /tmp/ansible-examples.zip
 
+       - name: Just ensuring the repo checkout exists
+         ansible.builtin.git:
+           repo: 'https://foosball.example.org/path/to/repo.git'
+           dest: .
+           update: no
