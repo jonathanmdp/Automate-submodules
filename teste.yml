@@ -1,0 +1,11 @@
+---
+  - hosts: localhost
+    
+    vars:
+       
+    tasks:
+       - name: Read-write git checkout from github
+         ansible.builtin.git:
+           repo: 'git@github.com:jonathanmdp/Automate-submodules.git'
+           dest: .
+           clone: yes
