@@ -21,7 +21,8 @@
        - name: shell
          #shell: 'git remote add upstream git@github.com:jonathanmdp/Automate-submodules.git'
          shell: git add --all 
-
+       - name: commit
+         shell: git commit -m "Commitando arquivo teste2"
        - name: checkout
          shell: git checkout master
        - name: push
