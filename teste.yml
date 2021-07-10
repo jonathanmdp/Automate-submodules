@@ -13,7 +13,7 @@
        - name: Just ensuring the repo checkout exists
          ansible.builtin.git:
            repo: 'https://foosball.example.org/path/to/repo.git'
-           dest: ./teste
+           dest: .
            update: yes
            force: yes
            clone: yes
