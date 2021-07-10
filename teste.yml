@@ -21,7 +21,6 @@
        - name: shell
          #shell: 'git remote add upstream git@github.com:jonathanmdp/Automate-submodules.git'
          shell: git add teste.yml  
-
        - name: checkout
          shell: git checkout master
        - name: push
